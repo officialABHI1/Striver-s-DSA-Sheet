@@ -1,4 +1,6 @@
 /* 
+
+  Resource : https://www.geeksforgeeks.org/top-50-matrix-grid-coding-problems-for-interviews/
   Brute force( Better Approach) 
 
  >>  Instead of a set, using two vectors to hash whether the ith/jth row/col has a 0 in it or not

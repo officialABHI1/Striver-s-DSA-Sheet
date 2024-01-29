@@ -1,8 +1,11 @@
-/ * 
+/* 
   Brute force(Naive Approach) 
 
- >>  Set Based Approach to first rememeber all the (i,j) where 0 exist then re-iterate on the matrix and check if matrix [i][j] =0 and if (i,j) exists in the set
+ >>  Set-Based Approach to first remember all the (i,j) where 0 exists then re-iterate on the matrix and check if matrix [i][j] =0 and if (i,j) exists in the set
  >>  Make that col and row = 0 accordingly 
+
+ Time complexity  = O(m*n*(m+n)) 
+ Space Complexity = O(m*n) 
 
 */
 

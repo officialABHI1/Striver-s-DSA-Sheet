@@ -7,6 +7,9 @@
      Rest we will call the same **makeColumnZero** and **makeRowZero** functions to make that respective row and column zero according to the hash table WHERE 1 is present but only from the second row/column.
   Note: As an edge case we need to handle the scenario if the first row has a zero but not but first column so we make only the first row 0 but not 1st column and vice versa
         FOR THIS WE HAVE USED FLAG VARIABLES TO PRE-REMEMBER THAT WHILE HASHING 
+
+        Time complexity : O(m*n)
+        Space Complexity: O(1)
 */
 
 

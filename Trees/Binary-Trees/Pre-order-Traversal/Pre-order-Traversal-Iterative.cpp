@@ -1,5 +1,5 @@
 /*
-    In this approach we do the Iterative Inorder Traversal for tree
+    In this approach we do the Iterative Preorder Traversal for tree
 
             5
         10    20
@@ -74,12 +74,9 @@ int main() {
 
     // Create a Solution object
     Solution s;
-    // Get the inorder traversal
-    vector<int> inorder = s.inorderTraversal(root);
-
-    // Print the inorder traversal
-    cout << "Inorder Traversal: ";
-    for (int i : inorder) {
+   
+    vector<int> PreOrder = s.preorderTraversal(root);
+    for (int i: preOrder) {
         cout << i << " ";
     }
     cout << endl;
